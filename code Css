@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #1DB954;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 350px;
+}
+.valor {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.botoes button, .enviar {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.enviar {
+    background-color: #fff;
+    color: #1DB954;
+    font-weight: bold;
+}
