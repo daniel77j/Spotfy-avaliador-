@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <title>Spotify Avaliador</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        let saldoAtual = 14.50;
+
+        function simularGanho() {
+            const ganho = (Math.random() * (5 - 1) + 1).toFixed(2); // valor entre 1 e 5 reais
+            saldoAtual += parseFloat(ganho);
+            document.querySelector(".valor").innerText = "R$ " + saldoAtual.toFixed(2);
+            alert("Você ganhou R$ " + ganho);
+        }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -15,6 +25,8 @@
             <button>+18 anos</button>
         </div>
         <button class="enviar">Enviar respostas</button>
+        <br><br>
+        <button class="simular" onclick="simularGanho()">Simular ganho</button>
     </div>
 </body>
 </html>
