@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #000;
@@ -35,4 +36,14 @@ body {
     background-color: #fff;
     color: #1DB954;
     font-weight: bold;
+}
+.simular {
+    background-color: #ffffff;
+    color: #1DB954;
+    border: 2px solid #1DB954;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
 }
