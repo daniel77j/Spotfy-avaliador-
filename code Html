@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify Avaliador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Parabéns! Você recebeu:</h1>
+        <div class="valor">R$ 14,50</div>
+        <p>Qual faixa etária você acha que mais escuta o cantor <strong>Léo Foguete?</strong></p>
+        <div class="botoes">
+            <button>-18 anos</button>
+            <button>+18 anos</button>
+        </div>
+        <button class="enviar">Enviar respostas</button>
+    </div>
+</body>
+</html>
